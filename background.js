@@ -8,6 +8,7 @@ chrome.tabs.onCreated.addListener(function(newTab) {
         });
         if (duplicateTab) {
             chrome.tabs.update(duplicateTab.id, {"selected": true});
+            chrome.tabs.reload(duplicateTab.id);
             chrome.tabs.remove(newTab.id);
         }
     });
