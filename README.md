@@ -21,6 +21,10 @@ Notes and limitations:
  2. 加载插件
 
  chrome -> 窗口 -> 扩展程序 -> 加载已解压的扩展程序 -> 选择克隆所在的文件加载即可
+ 
+ ## 示例
+ 
+ ![path](http://g.recordit.co/NwhnpTnVZd.gif)
 
 ## 感谢
 
