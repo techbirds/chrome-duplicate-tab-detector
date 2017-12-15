@@ -9,6 +9,8 @@ Notes and limitations:
  * Does not handle redirects--the requested URL must match the duplicated page URL exactly to be considered a duplicate.
  * Does not detect new tabs which are opened via javascript (e.g. via bookmarklets)
  * Does not auto-update
+ * 新增reload
+
 
  ## 安装
 
